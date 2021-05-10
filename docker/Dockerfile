@@ -1,4 +1,4 @@
-FROM openjdk:15.0.2-slim
+FROM openjdk:17-ea-7-oraclelinux8
 
 ARG webgoat_version=8.2.1-SNAPSHOT
 ENV webgoat_version_env=${webgoat_version}
